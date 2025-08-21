@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naveen | Portfolio</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0a192f;
+      color: white;
+      padding: 2rem 5%;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #64ffda;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background: #112240;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #64ffda;
+    }
+
+    section {
+      padding: 4rem 10%;
+    }
+
+    h2 {
+      color: #0a192f;
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+      border-left: 4px solid #64ffda;
+      padding-left: 10px;
+    }
+
+    .about, .projects, .contact {
+      background: white;
+      margin-bottom: 2rem;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      background: #e6f1ff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .project-card:hover {
+      background: #ccd6f6;
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #0a192f;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    footer a {
+      color: #64ffda;
+      text-decoration: none;
+    }
+
+    .contact p {
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #64ffda;
+      color: #0a192f;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0a192f;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Naveen</h1>
+    <p>Aspiring Data Analyst | Fresher</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello, I’m Naveen, an aspiring Data Analyst with skills in Python, SQL, Power BI, and Excel. I’m passionate about data-driven decision-making and transforming raw data into meaningful insights. I’m looking forward to contributing to impactful projects in the analytics field.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Sales Data Analysis</h3>
+        <p>Analyzed company sales data using Python and Power BI to uncover trends and improve decision-making.</p>
+      </div>
+      <div class="project-card">
+        <h3>Customer Segmentation</h3>
+        <p>Applied clustering techniques to segment customers and design personalized marketing strategies.</p>
+      </div>
+      <div class="project-card">
+        <h3>Excel Dashboard</h3>
+        <p>Built an interactive Excel dashboard for tracking KPIs and business performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:nave84931@gmail.com">nave84931@gmail.com</a></p>
+    <p>Phone: <a href="tel:8248411670">8248411670</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/naveen-s-69b71b242/" target="_blank">linkedin.com/in/naveen-s</a></p>
+    <p>GitHub: <a href="https://github.com/" target="_blank">github.com/naveen</a></p>
+    <a href="#about" class="btn">Download Resume</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Naveen | Built with 💻 & ❤️</p>
+  </footer>
+</body>
+</html>
